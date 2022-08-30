@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    </head>
+
+<body>
+    <div class="intro">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="./images/logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./buy.html">Buy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./buy.html">Sell</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./buy.html">Sell items</a></li>
+                      <li><a class="dropdown-item" href="./buy.html">Buy Items</a></li>
+                      <li><a class="dropdown-item" href="#">Submit a Bid</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link signin" href="./join.html">Sign In/Register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="intmsg" data-aos="fade-up" data-aos-duration="1000">
+            <h2>The Best Place to Buy and Sell</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil.</p>
+            <input class="regbtn" type="button" value="Register">
+          </div>
+        </div>
+
+        <div class="auctions">
+            <div class="container">
+                <div class="row">
+                    <div class="auchead">
+                        <h2>Auctions</h2>
+                        <p>Current <span>Auctions</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$95</div>
+                            <img src="./images/products/p1.webp" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Pinky Shoes</h5>
+                              <p class="card-text">Shoes <span>4 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$30</div>
+                            <img src="./images/products/p2.webp" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Eye Glass Eye Protector</h5>
+                              <p class="card-text">Eye Glasses <span>5 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div><div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$199</div>
+                            <img src="./images/products/p3.webp" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Black Leather Jacket</h5>
+                              <p class="card-text">Clothing <span>24 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div><div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$1,999</div>
+                            <img src="./images/products/p4.webp" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">MacBook 15-Inch Laptop</h5>
+                              <p class="card-text">Elctronics <span>224 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$777</div>
+                            <img src="./images/products/p5.webp" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">iPad</h5>
+                              <p class="card-text">Elctronics <span>11 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$78</div>
+                            <img src="./images/products/p6.webp" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Shoe Sneakers</h5>
+                              <p class="card-text">Shoes <span>4 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$1,999</div>
+                            <img src="./images/products/p7.webp" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">iMac</h5>
+                              <p class="card-text">Elctronics <span>293 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="price">$45o</div>
+                            <img src="./images/products/p8.jpg" class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">iWatch</h5>
+                              <p class="card-text">Elctronics <span>121 bids</span></p>
+                              <a href="#" class="btn ">Submit a Bid</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="how">
+                        <h2>HOW ?</h2>
+                        <p>How <span>It Works</span></p>
+                    </div>
+
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card hcard">
+                            <div class="em">
+                                <div class="price"><i class="bi bi-person-fill"></i></div> 
+                                <div class="rr"><i class="bi bi-chevron-right"></i></div> 
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Register</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card hcard">
+                            <div class="em">
+                                <div class="price"><i class="bi bi-cash"></i></div> 
+                                <div class="rr"><i class="bi bi-chevron-right"></i></div> 
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Buy or Bid</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card hcard">
+                            <div class="em">
+                                <div class="price"><i class="bi bi-hourglass-top"></i></div> 
+                                <div class="rr"><i class="bi bi-chevron-right"></i></div> 
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Submit a Bid</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card hcard">
+                            <div class="em">
+                                <div class="price"><i class="bi bi-trophy"></i></div> 
+                                <!-- <div class="rr"><i class="bi bi-chevron-right"></i></div>  -->
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Win</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="abimg"></div>
+                  <div class="abtxt">
+                    <div class="how">
+                      <h2>ABOUT ?</h2>
+                      <p>About <span>Us</span></p>
+                  </div>
+                  <div class="abtt">
+                      <div class="abicn"> <i class="bi bi-telegram"></i> </div>
+                      <div class="abtt2">
+                        <h2>Fast Support</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</p>
+                      </div>
+                  </div>
+                  <div class="abtt">
+                    <div class="abicn"> <i class="bi bi-emoji-smile"></i> </div>
+                    <div class="abtt2">
+                      <h2>Happy Customers</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</p>
+                    </div>
+                </div>
+                <div class="abtt">
+                  <div class="abicn"> <i class="bi bi-gear"></i> </div>
+                  <div class="abtt2">
+                    <h2>24/7 Support</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</p>
+                  </div>
+              </div>
+                  </div>
+                </div>
+
+            </div>
+            </div>
+            <div class="reviews">
+              <div class="container">
+                <div class="row">
+                  <h2 class="hrev">Testimonials</h2>
+                  <h3 class="hhrev">Happy <span>Clients</span></h3>
+                </div>
+                <!-- <div class="row">
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="rv1">
+                          <div class="heading">
+                            <div class="pimg"></div>
+                            <h2>Alison Holmes</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          </div>
+                          </div>
+                          <div class="rv2"></div>
+                        
+
+                      </div>
+              
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+
+                </div> -->
+              </div>
+            </div>
+
+             <div class="inv">
+                  <h4>Create an account and start Buy, Bid or Sell Now!</h4>
+                  <input class="regbtn" type="button" value="Register">
+            </div>
+
+            <div class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <img src="./images/logo.png">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor.</p>
+                    <a href="#">Learn More</a>
+                  </div>
+                  <div class="col-lg-3">
+                    <h6> Solutions </h6>
+                    <a href="#">Register</a> <br>
+                    <a href="#">Login</a><br>
+                    <a href="#">Buy</a><br>
+                    <a href="#">Sell</a><br>
+                    <a href="#">Submit a Bid</a><br>
+                  </div>
+                  <div class="col-lg-3">
+                    <h6> Services </h6>
+                    <a href="#">Register</a> <br>
+                    <a href="#">Login</a><br>
+                    <a href="#">Buy</a><br>
+                    <a href="#">Sell</a><br>
+                    <a href="#">Submit a Bid</a><br>
+                  </div>
+                  <div class="col-lg-3">
+                    <h6> Contact </h6>
+                    <a href="#">Help Center</a> <br>
+                    <a href="#">Support Community</a><br>
+                    <a href="#">Press</a><br>
+                    <a href="#">Share Your Story</a><br>
+                    <a href="#">Our Supporters</a><br>
+                  </div>
+                </div>
+                <div class="copyright">Copyright ©2022 All rights reserved</div>
+              </div>
+            </div>
+        
+
+
+
+   
+   
+   
+   
+   
+   
+   
+    <script src="./js/jq.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
